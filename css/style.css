@@ -1,10 +1,50 @@
-h1{
-    font-family: 'Playfair Display', serif;
+:root {
+  --font-heading: "Playfair Display", serif;
+  --font-regular: "Popppins ", serif;
 }
 
-p{
-    font-family: 'Playfair Display', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
 }
-body{
-    margin: 10px;
+
+p {
+  font-family: var(--font-regular);
+}
+
+.head {
+  text-align: center;
+  background-color: #f9f7fe;
+  padding: 160px 20px;
+}
+
+.head p {
+  font-weight: bold;
+  font-size: 36px;
+  margin: 0px;
+}
+
+.head h1 {
+  font-weight: bold;
+  font-size: 96px;
+}
+
+.head h2 {
+  font-weight: normal;
+  font-size: 24px;
+  font-family: var(--font-regular);
+  color: #272142;
+}
+
+.btn-primary {
+  border-radius: 4px;
+  background-color: #6c63ff;
+  font-family: var(--font-regular);
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 5px;
 }
