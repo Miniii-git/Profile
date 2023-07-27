@@ -136,7 +136,7 @@ a {
   font-size: 24px;
 }
 
-#email {
+.click-social-link {
   font-size: 24px;
   font-weight: normal;
   color: var(--color-of-some-titles);
@@ -144,7 +144,7 @@ a {
   margin-bottom: 10px;
 }
 
-#email:hover {
+.click-social-link:hover {
   text-shadow: 1px 1px 1px rgb(0, 0, 0, 0.3);
 }
 
@@ -196,6 +196,23 @@ i:hover {
   font-weight: normal;
   font-family: var(--font-paragraph);
   text-align: center;
+}
+
+.get-in-touch {
+  padding: 160px 20px 80px 20px;
+}
+
+.get-in-touch h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.social-links {
+  font-size: 24px;
+  font-weight: normal;
+  color: var(--color-of-some-titles);
+  text-decoration: none;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 992px) {
@@ -259,5 +276,13 @@ i:hover {
 
   .title-of-works {
     padding: 80px 20px;
+  }
+
+  .get-in-touch {
+    padding: 80px 20px;
+  }
+
+  .get-in-touch h1 {
+    font-size: 44px !important;
   }
 }
