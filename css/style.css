@@ -24,6 +24,26 @@ a {
   font-family: var(--font-paragraph);
 }
 
+.navbar {
+  background-color: white !important;
+}
+
+.navbar img {
+  height: 32px;
+}
+
+.active {
+  color: var(--branding-color) !important;
+}
+
+li {
+  padding: 0px 10px;
+}
+
+.navbar a:hover {
+  color: var(--branding-color);
+}
+
 .row {
   display: flex;
 }
