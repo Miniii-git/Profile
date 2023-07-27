@@ -100,7 +100,7 @@ a {
 }
 
 .about-me h1 {
-  font-size: 64px !important;
+  font-size: 64px;
   font-weight: bold;
 }
 
@@ -162,7 +162,7 @@ i:hover {
   color: var(--color-of-some-titles);
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .head p {
     font-size: 32px !important;
   }
@@ -191,5 +191,26 @@ i:hover {
   .btn-launch {
     padding: 10px 30px;
     margin-bottom: 10px;
+  }
+
+  .about-me {
+    text-align: center;
+    padding: 50px 20px;
+  }
+  .about-me img {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .work-inquiry {
+    text-align: center;
+    padding: 50px 20px;
+    margin: auto;
+  }
+
+  .lets-talk {
+    text-align: center;
   }
 }
