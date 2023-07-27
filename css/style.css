@@ -1,6 +1,8 @@
 :root {
   --font-heading: "Playfair Display", serif;
-  --font-regular: "Popppins ", serif;
+  --font-paragraph: "Popppins ", serif;
+  --branding-color: #6c63ff;
+  --color-of-some-titles: #272142;
 }
 
 h1,
@@ -13,7 +15,8 @@ h6 {
 }
 
 p {
-  font-family: var(--font-regular);
+  font-family: var(--font-paragraph);
+  line-height: 30px;
 }
 
 .head {
@@ -36,15 +39,85 @@ p {
 .head h2 {
   font-weight: normal;
   font-size: 24px;
-  font-family: var(--font-regular);
-  color: #272142;
+  font-family: var(--font-paragraph);
+  color: var(--color-of-some-titles);
 }
 
-.btn-primary {
+.btn-contact {
   border-radius: 4px;
-  background-color: #6c63ff;
-  font-family: var(--font-regular);
+  background-color: var(--branding-color);
+  font-family: var(--font-paragraph);
+  color: white;
   font-size: 18px;
   padding: 15px 30px;
   margin-top: 5px;
+}
+
+.btn-contact:hover {
+  border: 1px solid var(--branding-color);
+  background-color: rgb(105, 97, 255, 0.85);
+  color: rgb(255, 255, 255);
+}
+
+.title-of-projects {
+  text-align: center;
+  font-size: 18px;
+  color: var(--color-of-some-titles);
+  margin: 50px;
+}
+
+.proj-description h2 {
+  font-size: 64;
+}
+
+.proj-description {
+  padding: 120px 60px;
+}
+
+.btn-launch {
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  color: var(--branding-color);
+  background-color: white;
+  font-family: var(--font-paragraph);
+  font-size: 18px;
+  padding: 18px 30px;
+  margin-top: 5px;
+}
+
+.btn-launch:hover {
+  border: 1px solid var(--branding-color);
+  color: var(--color-of-some-titles);
+  background-color: rgb(246, 243, 249, 0.3);
+}
+
+@media (max-width: 991px) {
+  .head p {
+    font-size: 32px !important;
+  }
+
+  h1 {
+    font-size: 54px !important;
+  }
+
+  .head h2 {
+    font-size: 20px !important;
+  }
+
+  .proj-description {
+    padding: 0;
+    text-align: center;
+  }
+
+  .head {
+    padding: 100px 20px;
+  }
+
+  p {
+    line-height: 25px;
+  }
+
+  .btn-launch {
+    padding: 10px 40px;
+  }
 }
