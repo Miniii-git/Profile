@@ -71,7 +71,7 @@ p {
 }
 
 .proj-description {
-  padding: 120px 60px;
+  padding: 80px 60px;
 }
 
 .btn-launch {
@@ -118,6 +118,7 @@ p {
   }
 
   .btn-launch {
-    padding: 10px 40px;
+    padding: 10px 30px;
+    margin-bottom: 10px;
   }
 }
