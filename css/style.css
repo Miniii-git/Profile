@@ -24,6 +24,10 @@ a {
   font-family: var(--font-paragraph);
 }
 
+.row {
+  display: flex;
+}
+
 .head {
   text-align: center;
   background-color: var(--mild-color-for-bg);
@@ -96,7 +100,7 @@ a {
 }
 
 .about-me {
-  padding: 100px 60px;
+  padding: 160px 20px;
 }
 
 .about-me h1 {
@@ -162,6 +166,38 @@ i:hover {
   color: var(--color-of-some-titles);
 }
 
+.title-of-works {
+  padding: 160px 20px 80px 20px;
+}
+
+#look-at-works {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.img-works {
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.img-works img {
+  margin-bottom: 10px;
+}
+
+.img-works h2 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--font-paragraph);
+  text-align: center;
+}
+
+.img-works h4 {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: var(--font-paragraph);
+  text-align: center;
+}
+
 @media (max-width: 992px) {
   .head p {
     font-size: 32px !important;
@@ -181,7 +217,7 @@ i:hover {
   }
 
   .head {
-    padding: 100px 20px;
+    padding: 80px 20px;
   }
 
   p {
@@ -195,7 +231,7 @@ i:hover {
 
   .about-me {
     text-align: center;
-    padding: 50px 20px;
+    padding: 80px 20px;
   }
   .about-me img {
     width: 70%;
@@ -212,5 +248,16 @@ i:hover {
 
   .lets-talk {
     text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #look-at-works {
+    font-size: 34px !important;
+    text-align: center;
+  }
+
+  .title-of-works {
+    padding: 80px 20px;
   }
 }
