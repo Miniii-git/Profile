@@ -51,7 +51,7 @@ li {
 .head {
   text-align: center;
   background-color: var(--mild-color-for-bg);
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .head p {
@@ -120,7 +120,7 @@ li {
 }
 
 .about-me {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .about-me h1 {
@@ -187,7 +187,7 @@ i:hover {
 }
 
 .title-of-works {
-  padding: 160px 20px 80px 20px;
+  padding: 100px 20px 80px 20px;
 }
 
 #look-at-works {
@@ -219,7 +219,7 @@ i:hover {
 }
 
 .get-in-touch {
-  padding: 160px 20px 80px 20px;
+  padding: 100px 20px 80px 20px;
 }
 
 .get-in-touch h1 {
@@ -233,6 +233,22 @@ i:hover {
   color: var(--color-of-some-titles);
   text-decoration: none;
   margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+  font-family: var(--font-paragraph);
+  color: var(--color-of-some-titles);
+}
+
+.footer a {
+  color: var(--branding-color);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: var(--branding-color);
+  text-decoration: underline;
 }
 
 @media (max-width: 992px) {
@@ -254,7 +270,7 @@ i:hover {
   }
 
   .head {
-    padding: 80px 20px;
+    padding: 70px 20px;
   }
 
   p {
@@ -268,7 +284,7 @@ i:hover {
 
   .about-me {
     text-align: center;
-    padding: 80px 20px;
+    padding: 70px 20px;
   }
   .about-me img {
     width: 70%;
@@ -295,11 +311,11 @@ i:hover {
   }
 
   .title-of-works {
-    padding: 80px 20px;
+    padding: 70px 20px;
   }
 
   .get-in-touch {
-    padding: 80px 20px;
+    padding: 70px 20px;
   }
 
   .get-in-touch h1 {
